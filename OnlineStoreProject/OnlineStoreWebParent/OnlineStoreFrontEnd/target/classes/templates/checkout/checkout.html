@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head('Spencers Electronics Shopping Cart')"  />
+<body>
+
+
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div class = "text-center">
+        <h1>Your Checkout</h1>
+    </div>
+
+
+
+    <div class="row m-1">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header"><h5>Shipping Information</h5></div>
+                <div class="card-body">
+                <p>
+                    <b>Billing Address: </b> &nbsp;[[${address}]]
+                </p>
+                </div>
+            </div>
+            <div class="card mt-3 mb-3">
+                <div class="card-header"><h5>Acceptable Payment Method</h5></div>
+                <div class="card-body">
+
+                    <ul>
+                        <li> Cash </li>
+                        <li> Credit </li>
+                        <li> Debit </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header"><h5>Order Summary</h5></div>
+                <div class="card-body">
+                    <div>
+                        <table>
+                            <th:block th:each="item : ${cartItemList}">
+                                <tr th:with="product = ${item.product}">
+                                    <td> [[${item.quantity}]] X &nbsp;&nbsp; </td>
+                                    <td width="70%">
+                                        <a th:href="@{'/p/' + ${product.alias}}" target="_blank"> [[${product.name}]] </a>
+                                    </td>
+                                </tr>
+
+                                <td>
+                                    <span>$ <b>[[${item.subtotal}]] </b> </span>
+                                </td>
+
+                            </th:block>
+                            <tr> <td colspan="3"><hr/></tr>
+                        </table>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col">Pre-Tax Total:</div>
+                        <div class="col">[[${estimatedTotal}]] </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col">Tax (%): </div>
+                        <div class="col"><b>[[${salesTax * 100}]] </b> %   </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col">Total:</div>
+                        <div class="col"> <b> [[${  estimatedTotal + (estimatedTotal*salesTax) }]] </b> </div>
+                    </div>
+                    <div class="mt-2">
+                        <form th:action="@{/confirm_order}">
+                            <button type="submit" class="btn btn-danger p-3">Confirm Order</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript" th:src="@{/js/jquery.number.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/shopping_cart.js}"></script>
+<script type="text/javascript" >
+    contextPath = "[[@{/}]]" ;
+    var csrfHeaderName = "[[${_csrf.headerName}]]"
+    var csrfValue = "[[${_csrf.token}]]"
+
+</script>
+
+</body>
+</html>

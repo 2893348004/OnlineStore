@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b381d4d-3c89-4af9-8201-aa19c3afeb94" name="Default Changelist" comment="First Online Store Project">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OnlineStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_69.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_3_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_3_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_1_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_69.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_postgresql_postgresql_42_2_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_aop_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_beans_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_context_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_core_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_expression_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_orm_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_test_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_tx_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_web_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_webjars_bootstrap_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_webjars_jquery_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_webjars_popper_js_1_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/OnlineStoreCommon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Exception/CategoryNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Exception/ShoppingCartException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/java/com/OnlineStore/OnlineStoreCommon/Exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/OnlineStoreCommon-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/ProductImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Exception/CategoryNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Exception/CustomerNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Exception/ProductNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Exception/ShoppingCartException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/classes/com/OnlineStore/OnlineStoreCommon/Exception/UserNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreCommon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/OnlineStoreBackEnd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Orders/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/OnlineStoreUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/OnlineStoreUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Exporters/UserCsvExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Exporters/UserPDFExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/FileUploadUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/OnlineStoreBackEndApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/fontawesome/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/images/company-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/images/dafaultusericon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/images/folder-my-pictures-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/images/sunsetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/richtext/jquery.richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/richtext/jquery.richtext.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/richtext/richtext.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/richtext/richtext.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/categories_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/yyy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/customers/customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/customers/customers_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/customers/customers_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/errors/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/header_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/modal_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/navigation_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/users/account_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/users/user_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/users/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/test/java/com/OnlineStore/OnlineStoreBackEnd/Admin/ProductsRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/test/java/com/OnlineStore/OnlineStoreBackEnd/CategoryRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/test/java/com/OnlineStore/OnlineStoreBackEnd/PasswordEncryptionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/test/java/com/OnlineStore/OnlineStoreBackEnd/RoleRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/test/java/com/OnlineStore/OnlineStoreBackEnd/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/OnlineStoreBackEnd-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/OnlineStoreBackEnd-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Customer/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Orders/OrdersRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/OnlineStoreUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/OnlineStoreUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Security/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Exporters/UserCsvExporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Exporters/UserPDFExporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/FileUploadUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/ProfilePicFileUploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/OnlineStoreBackEndApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/fontawesome/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/images/company-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/images/dafaultusericon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/images/folder-my-pictures-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/images/sunsetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/richtext/jquery.richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/richtext/jquery.richtext.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/richtext/richtext.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/richtext/richtext.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/categories_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/yyy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/customers/customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/customers/customers_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/customers/customers_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/errors/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/header_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/modal_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/navigation_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/users/account_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/users/user_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/users/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/Admin/ProductsRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/CategoryRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/PasswordEncryptionTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/RoleRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/UserRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/1/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/10/Frederick Santos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/11/Anna Maria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/12/Satya Narayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/13/Matthew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/14/Dave Kumar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/15/Jack Bruce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/16/Mohamed Zirri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/17/Mithun Kumar Majumdar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/18/Ali Raza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/19/Isaac Henry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/2/Allada Pavan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/20/Svetlana Stasovska.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/21/Mike Gates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/22/Pedro Quintero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/23/148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/3/Bruce Kitchell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/4/photo-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/5/KentHervey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/6/Alfred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/6/download.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/6/images.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/7/Nathi_Sangweni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/8/Ammanolla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/8/images (2).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/user-photos/9/Bill Feeny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/OnlineStoreFrontEnd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/CartItem/CartItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Category/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Category/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Checkout/CheckOutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/OnlineStoreFrontEndApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Orders/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Orders/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/fontawesome/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/images/company-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/images/dafaultusericon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/images/folder-my-pictures-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/images/sunsetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/js/commonFrontEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/js/jquery.number.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/js/my_shopping_cart2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/js/quantity_control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/cart/quantity_control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/cart/shopping_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/checkout/Order_completed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/checkout/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/header_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/modal_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/navigation_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/pagination_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/products/products_by_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/products/products_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/register/register_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/register/update_customer_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/test/java/com/OnlineStore/OnlineStoreFrontEnd/CartItemTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/test/java/com/OnlineStore/OnlineStoreFrontEnd/CategoryRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/OnlineStoreFrontEnd-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/OnlineStoreFrontEnd-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/CartItem/CartItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Category/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Category/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Checkout/CheckOutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerUserDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Customer/CustomerUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/OnlineStoreFrontEndApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Orders/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Orders/OrdersRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/ShoppingCart/ShoppingCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/fontawesome/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/images/company-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/images/dafaultusericon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/images/folder-my-pictures-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/images/sunsetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/js/commonFrontEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/js/jquery.number.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/js/my_shopping_cart2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/js/quantity_control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/cart/quantity_control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/cart/shopping_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/checkout/Order_completed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/checkout/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/header_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/modal_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/navigation_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/pagination_fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/products/products_by_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/products/products_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/register/register_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/templates/register/update_customer_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/test-classes/com/OnlineStore/OnlineStoreFrontEnd/CartItemTesting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/test-classes/com/OnlineStore/OnlineStoreFrontEnd/CategoryRepoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreWebParent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/category-images/2/desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/category-images/3/laptop.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/category-images/5/memory.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/product-images/1/Dell-EMC-Ready-AI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/product-images/2/dell laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/product-images/3/hw component.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/src/main/java/com/OnlineStore/OnlineStoreProject/OnlineStoreProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/10/course5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/11/his airness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/2/Screenshot (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/2/sunsetlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/3/dafaultusericon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/7/his airness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/course3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/course4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineStoreProject/user-photos/his airness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iTextHelloWorld.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1u0qxsdpkKSRtybLsKGAGuzG8Ca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/static/images" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.OnlineStore.OnlineStoreFrontEnd" />
+      <recent name="com.OnlineStore.OnlineStoreBackEnd.Admin.Customer" />
+      <recent name="com.OnlineStore.OnlineStoreBackEnd.Admin.Product" />
+      <recent name="com.OnlineStore.OnlineStoreBackEnd.Admin" />
+      <recent name="com.OnlineStore.OnlineStoreBackEnd.Admin.User" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\static\images" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\static\js" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\templates" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\templates\checkout" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\templates\cart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\templates\products" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreFrontEnd\src\main\resources\templates" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreBackEnd\src\main\resources\templates\products" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreBackEnd\src\main\resources\templates" />
+      <recent name="C:\Users\Adrien\Desktop\GoodCopyProjects\OnlineStore\OnlineStoreProject\OnlineStoreWebParent\OnlineStoreBackEnd\src\main\resources\templates\users" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.OnlineStore.OnlineStoreBackEnd" />
+      <recent name="com.OnlineStore.OnlineStoreBackEnd.Admin" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.OnlineStore.OnlineStoreFrontEnd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.OnlineStore.OnlineStoreFrontEnd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CartItemTesting.testFindByCustomerAndProduct">
+    <configuration name="OnlineStoreBackEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreBackEnd.OnlineStoreBackEndApplication" />
+      <module name="OnlineStoreBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OnlineStore.OnlineStoreBackEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineStoreFrontEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreFrontEnd.OnlineStoreFrontEndApplication" />
+      <module name="OnlineStoreFrontEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OnlineStore.OnlineStoreCommon.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartItemTesting.testFindByCustomerAndProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineStoreFrontEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OnlineStore.OnlineStoreFrontEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.OnlineStore.OnlineStoreFrontEnd" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreFrontEnd.CartItemTesting" />
+      <option name="METHOD_NAME" value="testFindByCustomerAndProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartItemTesting.testpfjdd5555d3dtrt534fdfd45rath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineStoreFrontEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OnlineStore.OnlineStoreFrontEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.OnlineStore.OnlineStoreFrontEnd" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreFrontEnd.CartItemTesting" />
+      <option name="METHOD_NAME" value="testpfjdd5555d3dtrt534fdfd45rath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartItemTesting.testpfjddd3dtrt534fdfd45rath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineStoreFrontEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OnlineStore.OnlineStoreFrontEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.OnlineStore.OnlineStoreFrontEnd" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreFrontEnd.CartItemTesting" />
+      <option name="METHOD_NAME" value="testpfjddd3dtrt534fdfd45rath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CartItemTesting.testFindByCustomerAndProduct" />
+        <item itemvalue="JUnit.CartItemTesting.testpfjdd5555d3dtrt534fdfd45rath" />
+        <item itemvalue="Application.OnlineStoreBackEndApplication" />
+        <item itemvalue="Application.OnlineStoreFrontEndApplication" />
+        <item itemvalue="JUnit.CartItemTesting.testpfjddd3dtrt534fdfd45rath" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b381d4d-3c89-4af9-8201-aa19c3afeb94" name="Default Changelist" comment="" />
+      <created>1623813105772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623813105772</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Online Store Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Online Store Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.expression.spel.SpelParseException" package="org.springframework.expression.spel" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

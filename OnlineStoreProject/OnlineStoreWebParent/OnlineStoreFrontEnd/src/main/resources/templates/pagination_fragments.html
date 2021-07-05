@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/fontawesome/all.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/richtext/richtext.min.css}" />
+    <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"> </script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"> </script>
+    <script type="text/javascript" th:src="@{/js/commonFrontEnd.js}"> </script>
+
+</head>
+<body>
+
+
+<div th:fragment="product_pagination">
+
+
+
+
+<div class="text-center m-1" th:unless="${totalItems > 0}" >
+  <span> No products found </span>
+</div>
+
+
+
+<div >
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center flex-wrap">
+
+      <li th:class="${currentPage > 1 ? 'page-item' : 'page-item disabled'}">
+   <a class="page-link" th:href="@{/c/{category_alias}/page/1}">First</a></li>
+
+      <li th:class="${currentPage > 1 ? 'page-item' : 'page-item disabled'}">
+   <a class="page-link" th:href="@{'/c/{category_alias}/page/' + ${currentPage - 1} }">Previous</a></li>
+
+      </li>
+
+      <li th:class="${currentPage != i ? 'page-item' : 'page-item active'}"
+          th:each="i : ${#numbers.sequence(1, totalPages)}">
+        <a  th:if="${i > 0}"class="page-link" th:href="@{'/c/{category_alias}/page/' + ${i}}">
+          <td th:text="${i}"/></a>
+      </li>
+
+      <li th:class="${currentPage < totalPages ? 'page-item' : 'page-item disabled'}">
+   <a class="page-link" th:href="@{'/c/{category_alias}/page/' + ${currentPage + 1} }">Next</a>
+      </li>
+
+
+      <li th:class="${currentPage < totalPages ? 'page-item' : 'page-item disabled'}">
+    <a class="page-link" th:href="@{'/c/{category_alias}/page/' + ${totalPages} }">Last</a>
+      </li>
+
+
+    </ul>
+  </nav>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

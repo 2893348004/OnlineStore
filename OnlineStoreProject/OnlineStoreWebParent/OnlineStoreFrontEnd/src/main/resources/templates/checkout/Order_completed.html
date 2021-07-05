@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head('Spencers Electronics Shopping Cart')"  />
+<body>
+
+
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div class = "text-center">
+        <h1>Your Checkout</h1>
+        <h3 th:href="@{/}">Home</h3>
+    </div>
+
+
+    <div th:if="${message != null}" class="alert alert-success text-center">
+        [[${message}]]
+    </div>
+
+    <div class="row m-1">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header"><h5>Shipping Information</h5></div>
+                <div class="card-body">
+                <p>
+                    <b>Billing Address: </b> &nbsp;[[${address}]]
+                </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript" th:src="@{/js/jquery.number.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/shopping_cart.js}"></script>
+<script type="text/javascript" >
+    contextPath = "[[@{/}]]" ;
+    productId = "[[${product.id}}]]" ;
+    var csrfHeaderName = "[[${_csrf.headerName}]]"
+    var csrfValue = "[[${_csrf.token}]]"
+
+</script>
+
+</body>
+</html>

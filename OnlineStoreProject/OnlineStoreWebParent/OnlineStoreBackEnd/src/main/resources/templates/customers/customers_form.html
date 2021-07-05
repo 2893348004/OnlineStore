@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+
+<head th:replace="header_fragments :: page_head('Create new Customer')"  />
+
+
+<body>
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div class="text-center mb-4">
+        <h2>Customer Management | [[${pageTitle}]] </h2>
+    </div>
+
+
+
+
+
+<form th:action="@{/customers/save}"  method="post" style="max-width: 43.75rem; margin: 0 auto"
+        th:object="${customer}"  onsubmit="return checkUniquenessEmailCustomer(this);">
+        <input type="hidden" th:field="*{id}"/>
+
+    <div class="border border-secondary rounded p-3">
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Email:</label>
+                <div class="col-sm-8">
+                    <input type="email" class="form-control" th:field="*{email}" minlength="5" maxlength="45" required/>
+                </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >First Name:</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" th:field="*{firstName}" minlength="2" maxlength="45" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Last Name:</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" th:field="*{lastName}" minlength="2" maxlength="45" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Password:</label>
+            <div class="col-sm-8">
+                <input th:if="${user.id == null}" type="password" class="form-control" th:field="*{password}" minlength="8" maxlength="64" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >City:</label>
+            <div class="col-sm-8">
+                <input  type="text" class="form-control" th:field="*{city}" minlength="3" maxlength="45" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >State/Province:</label>
+            <div class="col-sm-8">
+                <input  type="text" class="form-control" th:field="*{stateOrProvince}" minlength="3" maxlength="15" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Phone Number:</label>
+            <div class="col-sm-8">
+                <input  type="text" class="form-control" th:field="*{phoneNumber}" minlength="10" maxlength="15" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Address:</label>
+            <div class="col-sm-8">
+                <input  type="text" class="form-control" th:field="*{address}" minlength="4" maxlength="90" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Zip Code:</label>
+            <div class="col-sm-8">
+                <input  type="text" class="form-control" th:field="*{zipcode}" minlength="6" maxlength="10" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Enabled:</label>
+            <div class="col-sm-8">
+                <input type="checkbox" th:field="*{enabled}"/>
+            </div>
+        </div>
+
+
+        <div class="text-center">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <input type="button" value="Cancel" class="btn btn-secondary" id="buttonCancelCustomers">
+        </div>
+
+    </div>
+
+</form>
+
+    <div th:replace="modal_fragments :: warning_modal_dialog"></div>
+
+</div>
+
+
+
+<script type="text/javascript">
+        function checkUniquenessEmailCustomer(form) {
+                                        var returnToCheckEmail = "/OnlineStoreAdmin/customers/check_unique_email";
+
+                                        url = returnToCheckEmail;
+                                        name = $("#email").val();
+                                        csrfValue = $("input[name='_csrf']").val();
+                                        params = {email: email, _csrf: csrfValue};
+
+                                        $.post(url, params, function(response){
+                                            if(response == "OK"){
+                                             form.submit();
+                                            }else if(response == "Duplicated"){
+                                            showModalDialog("Warning", "This Email is already in use : " + email );
+                                            }else{
+                                            showModalDialog("Error", "Unknown response from server");
+                                            }
+                                        });
+                                        return false;
+                                    }
+
+</script>
+
+</body>
+
+
+</html>

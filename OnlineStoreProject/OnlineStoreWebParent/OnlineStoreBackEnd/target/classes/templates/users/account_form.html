@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" >
+
+<head th:replace="header_fragments :: page_head('Account Details')"  />
+
+
+<body>
+<div class="container-fluid">
+
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+
+
+
+
+
+
+<form th:action="@{/account/update}"  method="post" style="max-width: 43.75rem; margin: 0 auto"
+        th:object="${user}" enctype="multipart/form-data"  >
+        <input type="hidden" th:field="*{id}"/>
+    <div class="text-center">
+        <h2> Account Details </h2>
+    </div>
+
+    <div th:if="${passmessage != null}" class="alert alert-success text-center">
+        [[${passmessage}]]
+    </div>
+
+    <div th:if="${failmessage != null}" class="alert alert-danger text-center">
+        [[${failmessage}]]
+    </div>
+
+    <div class="border border-secondary rounded p-3">
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Email:</label>
+                <div class="col-sm-8">
+                    <input type="email" class="form-control" th:field="*{email}" readonly="readonly" />
+                </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >First Name:</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" th:field="*{firstName}" minlength="2" maxlength="45" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Last Name:</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" th:field="*{lastName}" minlength="2" maxlength="45" required/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Password:</label>
+            <div class="col-sm-8">
+                <input  type="password" placeholder="leave empty if no change desired" class="form-control" th:field="*{password}" minlength="8" maxlength="30" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" > Assigned Roles:</label>
+            <div class="col-sm-8">
+              <span><b>[[${user.roles}]]</b></span>
+
+            </div>
+        </div>
+
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Photo:</label>
+            <div class="col-sm-8">
+                <input type="file" id="fileImage"  name="image" accept="image/png, image/jpeg, image/jpg" class="mb-2" />
+                <img id="thumbnail" alt="Photos preview" th:src="@{/images/dafaultusericon1.png}" style="width: 6.5rem" clss="img-fluid" />
+
+            </div>
+        </div>
+
+
+
+        <div class="text-center">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <input type="button" value="Cancel" class="btn btn-secondary" id="buttonCancelAccount">
+        </div>
+
+    </div>
+
+</form>
+
+
+
+
+    <div th:replace="modal_fragments :: warning_modal_dialog"></div>
+
+</div>
+
+
+
+
+
+</body>
+
+
+</html>

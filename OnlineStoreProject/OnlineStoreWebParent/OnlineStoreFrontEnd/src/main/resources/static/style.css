@@ -1,0 +1,23 @@
+
+
+*.icon-white{color: white}
+*.icon-red{color: red}
+*.icon-navy(color: navy}
+*.icon-blue{color: blue}
+*.icon-purple{color: purple}
+*.icon-black{color: black}
+*.icon-gray{color: gray}
+
+
+#topNavbar{
+font-size: 1.7rem ;
+
+
+}
+
+.navbar-nav .nav-item {
+margin-right: 3px;
+
+}
+
+

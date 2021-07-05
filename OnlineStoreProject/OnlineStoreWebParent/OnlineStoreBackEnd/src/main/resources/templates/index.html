@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" >
+
+<head th:replace="header_fragments :: page_head('Online Store Administrative Control Panel')"  />
+
+<body>
+<div class="container-fluid">
+   <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div>
+        <h2>Control Panel</h2>
+        Welcome Home <a th:href="@{/account}" th:text ="${#authentication.getPrincipal().getFullName()}" ></a>
+        <span th:text ="${#authentication.getPrincipal().getAuthorities()}" > </span>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

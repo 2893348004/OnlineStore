@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" >
+
+<head th:replace="header_fragments :: page_head('Account Details')"  />
+
+
+<body>
+<div class="container-fluid">
+
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+
+
+
+
+
+
+<form th:action="@{/update_customer}"  method="post" style="max-width: 43.75rem; margin: 0 auto"
+        th:object="${customer}"   >
+        <input type="hidden" th:field="*{id}"/>
+    <div class="text-center">
+        <h2> Account Details </h2>
+    </div>
+
+    <div th:if="${passmessage != null}" class="alert alert-success text-center">
+        [[${passmessage}]]
+    </div>
+
+    <div th:if="${failmessage != null}" class="alert alert-danger text-center">
+        [[${failmessage}]]
+    </div>
+
+    <div class="border border-secondary rounded p-3">
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">E-mail</label>
+            <div class="col-sm-8">
+                <input  type="email" th:field="*{email}" class="form-control"  readonly="readonly"/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">First Name</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{firstName}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Last Name</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{lastName}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" >Password:</label>
+            <div class="col-sm-8">
+                <input  type="password" placeholder="leave empty if no change desired" class="form-control"
+                        th:field="*{password}" minlength="6"  />
+            </div>
+        </div>
+
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Phone Number</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{phoneNumber}" class="form-control" maxlength="15" minlength="10"
+                        required />
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Address</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{address}" class="form-control" maxlength="90" minlength="5" required />
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">City</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{city}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">State/Province</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{stateOrProvince}" class="form-control" maxlength="15" minlength="5" required />
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Zip Code/Postal Code</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{zipcode}" class="form-control" maxlength="10" minlength="6" required />
+            </div>
+        </div>
+
+
+        <div class="text-center">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <input type="button" value="Cancel" class="btn btn-secondary" id="buttonFormCancel">
+        </div>
+
+    </div>
+
+</form>
+
+
+
+
+    <div th:replace="modal_fragments :: warning_modal_dialog"></div>
+
+</div>
+
+
+
+
+
+</body>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+$("#buttonCancel").on("click", function() {
+            window.location = "/HomeSite/"
+             });
+ });
+
+</script>
+
+</html>

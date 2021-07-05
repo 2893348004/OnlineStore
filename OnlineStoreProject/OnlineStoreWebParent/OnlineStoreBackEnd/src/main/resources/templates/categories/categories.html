@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" >
+
+<head th:replace="header_fragments :: page_head('Categories')"  />
+
+<body>
+
+<div class="container-fluid">
+
+  <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+  <div>
+    <h2> Manage Categories</h2>
+
+    <a th:href="@{/categories/new}" class="fas fa-folder-plus fa-2x icon-dark mr-2"></a>
+    <a th:href="@{/categoreis/export/csv}" class="fas fa-file-csv fa-2x icon-dark mr-2"></a>
+
+  </div>
+
+
+
+  <div th:if="${passmessage != null}" class="alert alert-success text-center">
+    [[${passmessage}]]
+  </div>
+
+  <div th:if="${failmessage != null}" class="alert alert-danger text-center">
+    [[${failmessage}]]
+  </div>
+
+
+  <div>
+    <form th:actions="@{/categories/page/1}" class="form-inline m-3">
+      Filter: &nbsp;
+      <input type="search" name="keyword" th:value="${keyword}" class="form-control" required />
+      &nbsp;&nbsp;
+      <button type="submit" class="btn btn-primary">
+        <i class="fas fa-search"></i>
+      </button>
+      &nbsp;&nbsp;
+      <button type="button" class="btn btn-secondary" onclick="clearFilter()">
+        <i class="fas fa-eraser"></i>
+      </button>
+    </form>
+  </div>
+
+  <div class="full-details">
+    <table class="table table-borded table-striped table-hover table-responsive-xl">
+      <thead class="thead-dark">
+      <tr>
+        <th>ID</th>
+        <th>Category Image</th>
+        <th>Category Name</th>
+        <th>Alias</th>
+        <th>Enabled</th>
+        <th></th>
+      </tr>
+      </thead>
+
+      <tbody  th:each="cat : ${listCategories}">
+        <td th:text="${cat.id}"></td>
+
+        <td>
+          <img th:if="${cat.image != null}" th:src="@{${cat.imagePath}}" style="width: 6rem" class="image-fluid"/>
+
+        </td>
+        <td th:text="${cat.name}"></td>
+        <td th:text="${cat.alias}"></td>
+        <td>
+
+          <a th:if="${cat.enabled == true}" class="fas fa-check-circle fa-2x icon-green" th:href="@{'/categories/edit/' + ${cat.id}}"></a>
+          <a th:if="${cat.enabled == false}" class="fas fa-times-circle fa-2x icon-red" th:href="@{'/categories/edit/' + ${cat.id}}"></a>
+
+        </td>
+
+        <td>
+
+          <a class="fas fa-edit fa-2x icon-navy" th:href="@{'/categories/edit/' + ${cat.id}}"
+             title="Edit Category"></a> <!-- Edit -->
+          &nbsp;
+          <a class="fas fa-trash fa-2x icon-grey" id="link-delete" th:href="@{'/categories/delete/' + ${cat.id}}"
+             th:Id="${cat.id}"
+             title="Delete Category"></a> <!-- Delete -->
+        </td>
+
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+</body>
+</html>

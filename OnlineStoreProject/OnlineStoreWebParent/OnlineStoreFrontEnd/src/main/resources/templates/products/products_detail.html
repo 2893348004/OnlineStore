@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+<head th:replace="header_fragments :: page_head(${pageTitle})"  />
+<body>
+
+
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div>
+        <h1>Products in Category</h1>
+
+    </div>
+
+    <div th:if="${listParents != null && !listParents.empty}">
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a th:href="@{/}">Home</a>
+                        </li>
+                        <th:block th:each="parent : ${listParents}">
+                            <li class="breadcrumb-item">
+                                <a th:text="${parent.name}" th:href="@{'/c/' + ${parent.alias}}"></a>
+                            </li>
+
+                        </th:block>
+                        <li class="breadcrumb-item" th:if="${product != null}">
+                            <span th:text="${product.name}"></span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+
+<div class="row">
+    <div class="col-sm">
+        <img th:src="@{${product.imagePath}}" class="img-fluid" />
+    </div>
+
+
+
+
+
+
+    <div class="col-sm">
+       <h2 th:text="${product.name}"> </h2>
+        <div th:utext="${product.shortDescription}" ></div>
+
+
+    <div th:if="${product.discountPercent <= 0}">
+        Price:
+        <td>$ <span th:text="${product.price}"></span>  </td>
+    </div>
+
+    <div th:if="${product.discountPercent > 0}" th:with="result=${product.price - ((product.discountPercent / 100)*product.price)}">
+        Discounted Price:
+        <td>$ <span th:text="${result}" style="font-size:larger;color:darkred"></span>  </td>
+      <del>  <td>$<span th:text="${product.price"></span></td> </del>
+    </div>
+        &nbsp;
+        </div>
+
+
+
+    <div class="col-sm-2">
+        <div>
+            <span th:if="${product.inStock}" class="text-success"><b>In Stock</b></span>
+            <span th:unless="${product.inStock}" class="text-danger"><b>Out of Stock</b></span>
+        </div>
+
+
+        <th:block th:if="${product.inStock}">
+
+            <div th:replace="cart/quantity_control :: quantity_control(1, ${product.id})"></div>
+
+            <div sec:authorize="isAuthenticated()" class="mt-3">
+                <input type="button" value="Add to Cart" class="btn btn-primary "  id="add"   />
+
+
+            </div>
+
+            <div sec:authorize="isAnonymous()"  class="mt-3">
+                <span class="text-danger"> <b> Log in or Register to purchase </b></span>
+
+
+            </div>
+
+        </th:block>
+
+
+    </div>
+
+
+
+
+</div>
+
+    <div class="row">
+        <div class="col-12">
+            <div></br></div>
+            <div><hr/></div>
+            <div>
+                <h3>Product Description</h3>
+            </div>
+            <div th:utext="${product.fullDescription}">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+<div th:replace="modal_fragments :: warning_modal_dialog"></div>
+</div>
+
+<script type="text/javascript" th:src="@{/js/quantity_control.js}"/>
+<script type="text/javascript" th:src="@{/js/add_to_cart.js}"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    contextPath = "[[@{/}]]" ;
+    productId = "[[${product.id}]]" ;
+    var csrfHeaderName = "[[${_csrf.headerName}]]" ;
+    var csrfValue = "[[${_csrf.token}]]" ;
+
+
+$(document).ready(function() {
+    $("#add").on("click", function(evt) {
+        addToCart();
+    });
+
+});
+
+function addToCart(){
+
+quantity = $("#quantity" + productId).val();
+    url = contextPath + "cart/add/" + productId + "/" + quantity;
+
+
+$.ajax({
+    type: "POST",
+    url: url,
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader(csrfHeaderName, csrfValue);
+    }
+
+}).done(function(response) {
+    showModalDialog("Shopping cart", response);
+    }).fail(function(){
+    showErrorModal("Error while adding product to cart");
+    });
+}
+
+
+
+function showModalDialog(title,message){
+         $("#modalTitle").text(title);
+         $("#modalBody").text(message);
+         $("#modalDialog").modal();
+         }
+function showErrorModal(message){
+         showModalDialog("Error", message)
+         }
+
+         function showWarningModal(message){
+         showModalDialog("Warning", message)
+         }
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+
+</html>

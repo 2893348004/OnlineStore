@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" >
+
+<head th:replace="header_fragments :: page_head('Products Admin')"  />
+
+<body>
+
+<div class="container-fluid">
+
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+
+    <div>
+        <h2> Manage Products</h2>
+
+        <a th:href="@{/products/new}" class="fas fa-folder-plus fa-2x icon-dark mr-2"></a>
+        <a th:href="@{/products/export/csv}" class="fas fa-file-csv fa-2x icon-dark mr-2"></a>
+
+    </div>
+
+
+
+    <div th:if="${passmessage != null}" class="alert alert-success text-center">
+        [[${passmessage}]]
+    </div>
+
+    <div th:if="${failmessage != null}" class="alert alert-danger text-center">
+        [[${failmessage}]]
+    </div>
+
+
+    <div>
+        <form th:actions="@{/products/page/1}" class="form-inline m-3">
+            Filter: &nbsp;
+            <input type="search" name="keyword" th:value="${keyword}" class="form-control" required />
+            &nbsp;&nbsp;
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+            </button>
+            &nbsp;&nbsp;
+            <button type="button" class="btn btn-secondary" onclick="clearFilter()">
+                <i class="fas fa-eraser"></i>
+            </button>
+        </form>
+    </div>
+
+    <div class="full-details">
+        <table class="table table-border table-striped table-hover table-responsive-xl">
+            <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Main Image</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Enabled</th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody  th:each="products : ${products}">
+            <td th:text="${products.id}"></td>
+
+            <td>
+
+                <img  th:src="@{${products.imagePath}}" style="width: 7rem" class="img-fluid"/>
+            </td>
+            <td th:text="${products.name}"></td>
+            <td th:text="${products.category.name}"></td>
+            <td>
+
+                <a th:if="${products.enabled == true}" class="fas fa-check-circle fa-2x icon-green" th:href="@{'/products/edit/' + ${products.id}}"></a>
+                <a th:if="${products.enabled == false}" class="fas fa-times-circle fa-2x icon-red" th:href="@{'/products/edit/' + ${products.id}}"></a>
+
+            </td>
+
+            <td>
+
+                &nbsp;
+
+                <a class="fas fa-edit fa-2x icon-navy" th:href="@{'/products/edit/' + ${products.id}}"
+                   title="Edit Product"></a> <!-- Edit -->
+                &nbsp;&nbsp;
+                <a class="fas fa-trash fa-2x icon-grey" id="link-delete" th:href="@{'/products/delete/' + ${products.id}}"
+                   th:Id="${products.id}"
+                   title="Delete Product"></a> <!-- Delete -->
+            </td>
+
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head('Spencers Electronics Login Page')"  />
+
+
+<body>
+
+
+<div class="container-fluid">
+
+
+  <div  class="text-center">
+    <h1>Customer Login</h1>
+
+  </div>
+
+
+
+  <form th:action="@{/login}" method="post" style="max-width: 35%; margin:0 auto">
+
+    <div  th:if="${param.error}" >
+      <p class="text-danger">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+    </div>
+
+    <div  th:if="${param.Logout}" >
+      <p class="text-danger">You have been logged out</p>
+    </div>
+
+    <div class="border border-secondary rounded p-3">
+      <p class="text-center"> Access to Spencers Electronics</p>
+      <p>
+        <input type="email" name="email" class="form-control" placeholder="Email" required />
+      </p>
+
+      <p>
+        <input type="password" name="password" class="form-control" placeholder="password" required />
+      </p>
+
+      <p>
+        <input type="checkbox" name="remember-me"/> &nbsp; Remember Me
+      </p>
+
+      <p>
+        <input type="submit" value="Login" class="btn btn-primary"    />
+      </p>
+
+    </div>
+
+
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

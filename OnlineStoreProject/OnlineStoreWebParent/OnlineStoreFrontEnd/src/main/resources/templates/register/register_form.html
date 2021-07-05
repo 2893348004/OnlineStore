@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head(${pageTitle})"  />
+<body>
+
+
+<div class="container-fluid">
+
+
+    <div class="text-center">
+        <h2>Customer Registration</h2>
+
+    </div>
+
+
+    <form th:action="@{/create_customer}" method="post" th:object="${customer}" style="max-width: 600px; margin: 0 auto;"
+    onsubmit="return checkUniquenessCustomer(this);">
+
+    <div class="border border-secondary rounded p-3">
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">First Name</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{firstName}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Last Name</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{lastName}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">E-mail</label>
+            <div class="col-sm-8">
+                <input  type="email" th:field="*{email}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Password</label>
+            <div class="col-sm-8">
+                <input  type="password" th:field="*{password}"class="form-control" maxlength="15" minlength="6"
+                        oninput="checkPasswordMatch(document.getElementById('confirmPassword'))"
+                        required
+                />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Re-type Password</label>
+            <div class="col-sm-8">
+                <input  type="password"    id=confirmPassword       class="form-control" maxlength="15" minlength="6"  />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Phone Number</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{phoneNumber}" class="form-control" maxlength="15" minlength="10"
+
+                        required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Address</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{address}" class="form-control" maxlength="90" minlength="5" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">City</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{city}" class="form-control" maxlength="45" minlength="2" required />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">State/Province</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{stateOrProvince}" class="form-control" maxlength="15" minlength="5" required />
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Zip Code/Postal Code</label>
+            <div class="col-sm-8">
+                <input  type="text" th:field="*{zipcode}" class="form-control" maxlength="10" minlength="6" required />
+            </div>
+        </div>
+
+
+
+        <div class="text-center">
+            <input type="submit" value="Create Account" class="btn btn-primary" />
+            <input type="button" value="Cancel" class="btn btn-secondary" id="buttonFormCancel">
+        </div>
+
+    </div>
+
+
+
+    </form>
+    <div>&nbsp;</div>
+
+</div>
+
+<div th:replace="modal_fragments :: warning_modal_dialog" ></div>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+$("#buttonFormCancel").on("click", function() {
+            window.location = "/HomeSite/"
+             });
+ });
+
+    moduleURL = "[[@{/}]]"
+
+    function checkPasswordMatch(confirmedPassword){
+    if(confirmPassword.value != $("#password").val()) {
+    confirmPassword.setCustomValidity("Passwords do not match!");
+    }else {
+    confirmPassword.setCustomValidity("");
+    }
+
+    }
+
+
+    function checkUniquenessCustomer(form) {
+                         var returnToCheckEmail = contextPath +  "customers/check_unique_email";
+
+                         url = returnToCheckEmail;
+                         customerEmail = $("#email").val();
+                         csrfValue = $("input[name='_csrf']").val();
+                         params = {email: customerEmail, _csrf: csrfValue};
+
+                         $.post(url, params, function(response){
+                             if(response == "OK"){
+                              form.submit();
+                             }else if(response == "Duplicated"){
+                             showModalDialog("Warning", "This email is already taken by another customer: " + customerEmail );
+                             }else{
+                             showModalDialog("Error", "Unknown response from server");
+                             }
+                         });
+                         return false;
+                     }
+
+      function showModalDialog(title,message){
+         $("#modalTitle").text(title);
+         $("#modalBody").text(message);
+         $("#modalDialog").modal();
+         }
+
+           function showErrorModal(message){
+         showModalDialog("Error", message)
+         }
+
+         function showWarningModal(message){
+         showModalDialog("Warning", message)
+         }
+
+
+</script>
+
+</body>
+</html>

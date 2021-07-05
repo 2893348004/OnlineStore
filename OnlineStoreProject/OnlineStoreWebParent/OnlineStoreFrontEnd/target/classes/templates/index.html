@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head('Spencers Electronics Home Page')"  />
+<body>
+
+
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div>
+        <h1>Welcome to Spencer's Electronics</h1>
+
+    </div>
+
+
+
+
+    <div th:if="${passmessage != null}" class="alert alert-success text-center">
+        [[${passmessage}]]
+    </div>
+
+    <div th:if="${failmessage != null}" class="alert alert-danger text-center">
+        [[${failmessage}]]
+    </div>
+
+
+    <div class="row">
+        <div class="col" th:each="category : ${categoryList}">
+            <div><img th:src="@{${category.imagePath}}" width="100px" style="border-radius: 60%"/>     </div>
+            <div>
+                <a th:href="@{'/c/' + ${category.alias}}" th:text="${category.name}"></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header_fragments :: page_head('Spencers Electronics Shopping Cart')"  />
+<body>
+
+
+<div class="container-fluid">
+    <div th:replace="navigation_fragments :: navigation_menu"></div>
+
+    <div class = "text-center">
+        <h1>Your Cart</h1>
+    </div>
+
+    <div th:if="${passmessage != null}" class="alert alert-success text-center">
+        [[${passmessage}]]
+    </div>
+
+<div>
+    <div class="row m-1">
+        <div class="col-sm-8">
+            <th:block th:each="item, status : ${cartItemList}">
+            <div class="row border rounded p-1" th:with="product = ${item.product}">
+                <div class="col-1">
+                    <div>[[${status.count}]]</div>
+                    <div>
+                        <a  class="fas fa-trash" th:href="@{'/delete/' + ${product.id}}">  </a>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img th:src="@{${item.product.imagePath}}" class="img-fluid">
+                </div>
+
+                <div class="col-6">
+                    <div>
+                        <a th:href="@{'/p/' + ${product.alias}}" target="_blank"><b>[[${product.name}]]</b></a>
+                    </div>
+
+                    <div th:replace="cart/quantity_control :: quantity_control(${item.quantity},${item.product.id})"></div>
+
+                    <div>
+                        <span>X &nbsp;</span>
+                        <th:block th:if="${product.discountPercent <= 0}">
+                            Price:
+                            <td>$ <span th:text="${product.price}"></span>  </td>
+                        </th:block>
+
+                        <th:block th:if="${product.discountPercent > 0}" th:with="result=${product.price - ((product.discountPercent / 100)*product.price)}">
+                            Discounted Price:
+                            <td>$ <span th:text="${result}" style="font-size:larger;color:darkred"></span>  </td>
+                            <del>  <td>$<span th:text="${product.price"></span></td> </del>
+                        </th:block>
+                    </div>
+
+                    <div>
+                        <span>=&nbsp;</span>
+                        <span>$ <b class="h4 subtotal" th:id="'subtotal' + ${product.id}">[[${item.subtotal}]]</b></span>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row m-1">&nbsp;</div>
+            </th:block>
+
+        </div>
+
+
+        <div class="col-sm-4" th:unless="${#lists.isEmpty(cartItemList)}">
+            <div>
+                <span class="h3"> Estimated Total:</span>
+            </div>
+
+            <div class="mt-2">
+                <span class="h3">$ <b class="h4" id="total">[[${estimatedTotal}]]</b></span>
+            </div>
+            <div class="mt-2">
+                <form th:action="@{/checkout}">
+                <button type="submit" class="btn btn-danger p-3">Check Out</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="text-center" th:if="${#lists.isEmpty(cartItemList)}">
+                <span class="h3"> No items in your cart:</span>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    <div th:replace="modal_fragments :: warning_modal_dialog"></div>
+
+
+
+</div>
+
+<script type="text/javascript" >
+    contextPath = "[[@{/}]]" ;
+    var csrfHeaderName = "[[${_csrf.headerName}]]" ;
+    var csrfValue = "[[${_csrf.token}]]" ;
+
+</script>
+<script type="text/javascript" th:src="@{/js/jquery.number.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/my_shopping_cart2.js}"></script>
+</body>
+</html>
