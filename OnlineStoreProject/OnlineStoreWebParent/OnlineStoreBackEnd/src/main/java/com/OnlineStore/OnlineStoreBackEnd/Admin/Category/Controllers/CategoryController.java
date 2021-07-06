@@ -16,6 +16,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 @Controller
@@ -49,13 +51,14 @@ public class CategoryController {
     public String saveCategory(Category category, @RequestParam("file") MultipartFile multipartFile,
                                RedirectAttributes redirectAttributes) throws IOException {
 
+        String myPath =  getMyPath();
+
     if(!multipartFile.isEmpty()){
         String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
         category.setImage(fileName);
         Category savedCategory = categoryService.save(category);
-        //categoryService.save(category);
-        String uploadDir = "C:/Users/Adrien/Desktop/GoodCopyProjects/OnlineStore" +
-                "/OnlineStoreProject/OnlineStoreWebParent/" + "category-images/" + savedCategory.getId();
+
+        String uploadDir = myPath  + "category-images/" + savedCategory.getId();
 
         FileUploadUtility.cleanDirectoryOfOldFile(uploadDir);
         FileUploadUtility.saveFile(uploadDir, fileName, multipartFile);
@@ -104,6 +107,15 @@ public class CategoryController {
     }
 
 
+    public String getMyPath(){
+        Path currentDirectoryPath = Paths.get("").toAbsolutePath();
+        String currentPathString = currentDirectoryPath.toString();
+        String result = currentPathString.split("OnlineStoreBackEnd")[0];
+        String windowsCompliantPath =  result.replace("\\", "/");
+
+        return windowsCompliantPath + "/OnlineStoreProject/OnlineStoreWebParent/";
+
+    }
 
 
 }

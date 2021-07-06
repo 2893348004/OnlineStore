@@ -45,6 +45,12 @@ public class ProductService {
 
         product.setUpdateTime(new Date());
 
+        if((product.getId() != null) && (product.getMainImage() == null)){
+            Product productInDB = productRepository.findById(product.getId()).get();
+            var x = productInDB.getMainImage();
+            product.setMainImage(x);
+        }
+
         return productRepository.save(product);
     }
 

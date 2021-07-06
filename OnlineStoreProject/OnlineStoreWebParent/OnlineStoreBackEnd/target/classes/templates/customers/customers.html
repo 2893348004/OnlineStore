@@ -106,9 +106,7 @@
             </td>
 
             <td>
-                <a class="fas fa-edit fa-2x icon-navy" th:href="@{'/customers/edit/' + ${customers.id}}"
-                   title="Edit Customer"></a> <!-- Edit -->
-                &nbsp;
+
                 <a class="fas fa-trash fa-2x icon-grey" id="link-delete" th:href="@{'/customers/delete/' + ${customers.id}}"
                    th:CustomerID="${customers.id}"
                    title="Delete Customer"></a> <!-- Delete -->

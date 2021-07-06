@@ -61,7 +61,7 @@ public String listAllProductsHome(Model model){
 }
 
 @PostMapping("/products/save")
-public String saveProduct(Product product, RedirectAttributes redirectAttributes,
+public String saveProduct(Product product,Model model, RedirectAttributes redirectAttributes,
                           @RequestParam("fileImage") MultipartFile multipartFile,
                           @RequestParam("extraImage") MultipartFile extraFile) throws IOException {
 
@@ -97,7 +97,7 @@ public String saveProduct(Product product, RedirectAttributes redirectAttributes
         productService.save(product);
     }
 
-
+    model.addAttribute("product",product);
     redirectAttributes.addFlashAttribute("passmessage", "Successful save of " + product.getName());
 
     return "redirect:/products" ;
@@ -119,7 +119,7 @@ public String saveProduct(Product product, RedirectAttributes redirectAttributes
             model.addAttribute("categoryList", categoryList);
             model.addAttribute("pageTitle", "Edit Product (Id :" + id + " )");
 
-            return"products/product_form";
+            return"products/product_update";
         }catch (ProductNotFoundException ex){
             redirectAttributes.addFlashAttribute("failmessage", ex.getMessage());
             return "redirect:/products";
@@ -141,6 +141,52 @@ public String saveProduct(Product product, RedirectAttributes redirectAttributes
 
 
 }
+
+
+
+    @PostMapping("/products/update")
+    public String updateProduct(Product product,Model model, RedirectAttributes redirectAttributes,
+                              @RequestParam("fileImage2") MultipartFile multipartFile,
+                              @RequestParam("extraImage") MultipartFile extraFile) throws IOException {
+
+        String myPath =  getMyPath();
+
+        if(!multipartFile.isEmpty()){
+            String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
+            product.setMainImage(fileName);
+
+            Product savedProduct = productService.save(product);
+
+
+            String uploadDirMain = myPath + "product-images/" + savedProduct.getId();
+
+
+            FileUploadUtility.cleanDirectoryOfOldFile(uploadDirMain);
+            FileUploadUtility.saveFile(uploadDirMain, fileName, multipartFile);
+        } else{
+
+            productService.save(product);
+        }
+
+
+        if(!extraFile.isEmpty()){
+            String extraFileName = StringUtils.cleanPath(extraFile.getOriginalFilename());
+            product.addExtraImage(extraFileName);
+
+            String uploadDirExtra = myPath + "product-images/" + product.getId() + "/extraImage";
+
+            FileUploadUtility.cleanDirectoryOfOldFile(uploadDirExtra);
+            FileUploadUtility.saveFile(uploadDirExtra, extraFileName, extraFile);
+
+            productService.save(product);
+        }
+
+        model.addAttribute("product",product);
+        redirectAttributes.addFlashAttribute("passmessage", "Successful save of " + product.getName());
+
+        return "redirect:/products" ;
+
+    }
 
 public String getMyPath(){
     Path currentDirectoryPath = Paths.get("").toAbsolutePath();

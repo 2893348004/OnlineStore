@@ -8,6 +8,8 @@
              });
              });
 
+
+
 $(document).ready(function() {
 $("#buttonCancel").on("click", function() {
             window.location = "/OnlineStoreAdmin/users/"
@@ -81,6 +83,91 @@ $(document).ready(function() {
                       });
 
                   });
+
+
+
+    var shiplenght = document.getElementById('shiplenght');
+
+    // Listen for input event on numInput.
+    shiplenght.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+    || (e.keyCode > 47 && e.keyCode < 58)
+    || e.keyCode == 8)) {
+    return false;
+    }
+    }
+
+    .
+    var shipwidth = document.getElementById('shipwidth');
+
+    // Listen for input event on numInput.
+    shipwidth.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+    || (e.keyCode > 47 && e.keyCode < 58)
+    || e.keyCode == 8)) {
+    return false;
+    }
+    }
+
+
+
+    var shipheightt = document.getElementById('shipheightt');
+
+    // Listen for input event on numInput.
+    shipheightt.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+    || (e.keyCode > 47 && e.keyCode < 58)
+    || e.keyCode == 8)) {
+    return false;
+    }
+    }
+
+    var shipweight = document.getElementById('shipweight');
+
+    // Listen for input event on numInput.
+    shipweight.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+    || (e.keyCode > 47 && e.keyCode < 58)
+    || e.keyCode == 8)) {
+    return false;
+    }
+    }
+
+    var formdiscount = document.getElementById('formdiscount');
+
+        // Listen for input event on numInput.
+        formdiscount.onkeydown = function(e) {
+        if(!((e.keyCode > 95 && e.keyCode < 106)
+        || (e.keyCode > 47 && e.keyCode < 58)
+        || e.keyCode == 8)) {
+        return false;
+        }
+        }
+
+    .
+        var formprice = document.getElementById('formprice');
+
+        // Listen for input event on numInput.
+        formprice.onkeydown = function(e) {
+        if(!((e.keyCode > 95 && e.keyCode < 106)
+        || (e.keyCode > 47 && e.keyCode < 58)
+        || e.keyCode == 8)) {
+        return false;
+        }
+        }
+
+
+
+        var formcost = document.getElementById('formcost');
+
+        // Listen for input event on numInput.
+        formcost.onkeydown = function(e) {
+        if(!((e.keyCode > 95 && e.keyCode < 106)
+        || (e.keyCode > 47 && e.keyCode < 58)
+        || e.keyCode == 8)) {
+        return false;
+        }
+        }
 
 
 

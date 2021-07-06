@@ -3,6 +3,8 @@
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
 >
 
+<head th:replace="header_fragments :: page_head('Product')"  />
+
 
 
 <body>
@@ -57,23 +59,25 @@
     <div class="form-group row">
         <label class="col-sm-2 col-form-label" >Cost:</label>
         <div class="col-sm-10">
-            <input type="number" class="form-control" th:field="*{cost}" aria-valuemin="0" />
+            <input type="number" class="form-control" th:field="*{cost}"  id="formcost" min="0" aria-valuemin="0" />
         </div>
     </div>
 
     <div class="form-group row">
         <label class="col-sm-2 col-form-label" >Price:</label>
         <div class="col-sm-10">
-            <input type="number" class="form-control" th:field="*{price}" aria-valuemin="0" />
+            <input type="number" class="form-control" th:field="*{price}"  id="formprice" min="0" aria-valuemin="0" />
         </div>
     </div>
 
     <div class="form-group row">
         <label class="col-sm-2 col-form-label" >Discount %:</label>
         <div class="col-sm-10">
-            <input type="number" class="form-control" th:field="*{discountPercent}" aria-valuemin="0" />
+            <input type="number" class="form-control" th:field="*{discountPercent}"  id="formdiscount" min="0" aria-valuemin="0" />
         </div>
     </div>
+
+
 
 
 

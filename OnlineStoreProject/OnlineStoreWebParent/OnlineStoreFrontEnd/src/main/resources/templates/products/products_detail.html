@@ -63,7 +63,7 @@
     <div th:if="${product.discountPercent > 0}" th:with="result=${product.price - ((product.discountPercent / 100)*product.price)}">
         Discounted Price:
         <td>$ <span th:text="${result}" style="font-size:larger;color:darkred"></span>  </td>
-      <del>  <td>$<span th:text="${product.price"></span></td> </del>
+      <del>  <td>$<span th:text="${product.price}"></span></td> </del>
     </div>
         &nbsp;
         </div>

@@ -19,9 +19,17 @@
                 <img id="thumbnail" alt="Main image preview" class="img-fluid" th:src="@{${product.imagePath}}">
             </div>
 
-            <div>
+            <div th:if="${product.name == null}">
                 <input type="file" id="fileImage" name="fileImage"  accept="image/png, image/jpeg, image/jpg" class="mb-2 "required>
             </div>
+
+            <div th:if="${product.name != null}">
+                <input type="file" id="fileImage2" name="fileImage2"  accept="image/png, image/jpeg, image/jpg" class="mb-2 ">
+            </div>
+
+
+
+
         </div>
     </div>
 
@@ -43,6 +51,8 @@
 
 
 </div>
+
+
 
 
 
