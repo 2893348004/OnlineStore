@@ -30,9 +30,11 @@ OnlineStore
     		  contains several xml configs that apply across both the front and backend
 
 
+POM XML files are included in project.
 
-                  OnlineStoreBackEnd : Data Source Configurations
                   
+                 OnlineStoreBackEnd : Data Source Configurations
+
 Database used in the project can be of any type assuming appropriate configurations are made, Posgresql was chosen for this
 project. While Spring/Hibernate/JPA does create tables, it is important to ensure that the restrictions we want to put in
 are actually being enforeced, make sure to enforce on the Database side.
