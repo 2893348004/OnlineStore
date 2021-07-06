@@ -9,8 +9,7 @@ a more hands on fashion.
 Below are some of the configuration settings in the project.
 
 
-#####################################Configurations #####################################
-
+                                     Configurations  
 
     	                             File Structure
 
