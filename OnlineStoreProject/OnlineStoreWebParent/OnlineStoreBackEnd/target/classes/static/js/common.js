@@ -97,7 +97,7 @@ $(document).ready(function() {
     }
     }
 
-    .
+
     var shipwidth = document.getElementById('shipwidth');
 
     // Listen for input event on numInput.

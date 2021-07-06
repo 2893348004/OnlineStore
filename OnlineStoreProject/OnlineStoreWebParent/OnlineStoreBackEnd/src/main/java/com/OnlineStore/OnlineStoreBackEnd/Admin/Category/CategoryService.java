@@ -34,7 +34,7 @@ private List<Category> listHiearchichalCategories( List<Category> rootCategories
         Set<Category> children = categorySortedSetSubcategory(rootCategory.getChildren());
 
         for(Category subCategory : children){
-           // String name = ("--[" + subCategory.getParent().getName() + "]" +  subCategory.getName());
+
              String name = ("--"  +  subCategory.getName());
             hiearchichalCategories.add(Category.copyFull(subCategory, name));
 

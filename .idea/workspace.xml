@@ -6,42 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6b381d4d-3c89-4af9-8201-aa19c3afeb94" name="Default Changelist" comment="First Online Store Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/java/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/static/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/customers/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/customers/customers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_images.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_shipping.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/product_shipping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/products/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/src/main/resources/templates/categories/yyy.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Category/Controllers/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/Product/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/Controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/FileUploadUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/FileUploadUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/ProfilePicFileUploadUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/com/OnlineStore/OnlineStoreBackEnd/Admin/User/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/static/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/customers/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/customers/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/categories/yyy.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/navigation_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/navigation_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_images.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_shipping.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/product_shipping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/classes/templates/products/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/UserRepositoryTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreBackEnd/target/test-classes/com/OnlineStore/OnlineStoreBackEnd/UserRepositoryTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/java/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/products/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/src/main/resources/templates/products/products_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/classes/com/OnlineStore/OnlineStoreFrontEnd/Security/WebSecurityConfigFrontEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/test-classes/com/OnlineStore/OnlineStoreFrontEnd/CartItemTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreProject/OnlineStoreWebParent/OnlineStoreFrontEnd/target/test-classes/com/OnlineStore/OnlineStoreFrontEnd/CartItemTesting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +102,7 @@
       <recent name="com.OnlineStore.OnlineStoreFrontEnd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OnlineStoreBackEndApplication">
+  <component name="RunManager" selected="Application.OnlineStoreFrontEndApplication">
     <configuration name="OnlineStoreBackEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.OnlineStore.OnlineStoreBackEnd.OnlineStoreBackEndApplication" />
       <module name="OnlineStoreBackEnd" />
@@ -203,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OnlineStoreBackEndApplication" />
         <item itemvalue="Application.OnlineStoreFrontEndApplication" />
+        <item itemvalue="Application.OnlineStoreBackEndApplication" />
         <item itemvalue="JUnit.CartItemTesting.testFindByCustomerAndProduct" />
         <item itemvalue="JUnit.CartItemTesting.testpfjdd5555d3dtrt534fdfd45rath" />
         <item itemvalue="JUnit.CartItemTesting.testpfjddd3dtrt534fdfd45rath" />
@@ -227,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625523981278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Online Store Project">
+      <created>1625546792502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625546792502</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Online Store Project">
+      <created>1625547064838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625547064838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +242,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Online Store Project" />
