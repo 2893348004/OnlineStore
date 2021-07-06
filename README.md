@@ -2,7 +2,7 @@
 First Project
 
 This project is myt very first Java project, initially wanted to do several mini (even smaller) projects but realized that they would likely be copies
-of x portion of this one. This was my first attempt at becoming more familiar with the Spring Framework in conjunction with Maven builds, Hibernate/JPA and the MVC architecture in 
+of x portion of this one. This was my first attempt at becoming more familiar with the Spring Framework/Spring Boot in conjunction with Maven builds, Hibernate/JPA and the MVC architecture in 
 a more hands on fashion. 
 
 
@@ -12,7 +12,7 @@ Below are some of the configuration settings in the project.
 #####################################Configurations #####################################
 
 
-    						    ################# File Structure#################
+    	           ################# File Structure#################
 
 
 
@@ -32,7 +32,7 @@ OnlineStore
 
 
 
-    		#################  OnlineStoreBackEnd : Data Source Configurations  #################
+  #################  OnlineStoreBackEnd : Data Source Configurations  #################
 
 
 
@@ -55,7 +55,7 @@ spring.jpa.show-sql=true
 
 
 
-			  #################  OnlineStoreFrontEnd  : Data Source Configurations  #################
+ #################  OnlineStoreFrontEnd  : Data Source Configurations  #################
 
 
 
