@@ -12,7 +12,7 @@ Below are some of the configuration settings in the project.
 #####################################Configurations #####################################
 
 
-    	           ################# File Structure#################
+    	                             File Structure
 
 
 
@@ -32,7 +32,7 @@ OnlineStore
 
 
 
-  #################  OnlineStoreBackEnd : Data Source Configurations  #################
+                  OnlineStoreBackEnd : Data Source Configurations   
 
 
 
@@ -55,7 +55,7 @@ spring.jpa.show-sql=true
 
 
 
- #################  OnlineStoreFrontEnd  : Data Source Configurations  #################
+                          OnlineStoreFrontEnd  : Data Source Configurations   
 
 
 
