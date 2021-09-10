@@ -61,6 +61,8 @@ private Set<ProductImage> images = new HashSet<>();
         this.id = productId;
     }
 
+
+
     public Product() {
 
     }

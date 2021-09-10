@@ -23,7 +23,7 @@ public class Category {
     @Column(length = 64,  unique = true)
     private String image;
 
-    @Column(length = 128, nullable = false)
+    @Column( nullable = false)
     private boolean enabled;
 
     @Column(name="all_parent_ids", length = 256)
@@ -36,7 +36,6 @@ public class Category {
     @OneToMany(mappedBy = "parent")
     @OrderBy("name asc")
     private Set<Category> children = new HashSet<>();
-
 
     public Category() {
     }

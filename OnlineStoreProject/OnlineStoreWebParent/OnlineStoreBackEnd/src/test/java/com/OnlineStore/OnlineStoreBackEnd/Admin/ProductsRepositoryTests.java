@@ -54,6 +54,105 @@ public class ProductsRepositoryTests {
 
     }
 
+
+
+    @Test
+    public void testCreateProduct1(){
+        Category category = testEntityManager.find(Category.class, 4);
+
+        Product product = new Product();
+        product.setName("HP Hardware Component 123");
+        product.setShortDescription("HP Hardware Component 123, replacement for component 123 on HP desktop");
+        product.setFullDescription("allow your HP desktop to run longer by replacing  component 123 for smoother performance and better memory usage");
+        product.setAlias("hw  comp 123");
+
+        product.setPrice(2000);
+        product.setCreateTime(new Date());
+        product.setUpdateTime(new Date());
+
+        product.setCategory(category);
+
+        Product savedProduct = productRepository.save(product);
+
+
+
+    }
+
+    @Test
+    public void testCreateProduct2(){
+        Category category = testEntityManager.find(Category.class, 4);
+
+        Product product = new Product();
+        product.setName("USB-C to HDMI Adapter");
+        product.setShortDescription("USB-C to HDMI Adapter, 4K CLDAY USB Type-C");
+        product.setFullDescription("USB-C to HDMI Adapter, 4K CLDAY USB Type-C high performance device");
+        product.setAlias("USB-C to HDMI");
+
+        product.setPrice(100);
+        product.setCreateTime(new Date());
+        product.setUpdateTime(new Date());
+
+        product.setCategory(category);
+
+        Product savedProduct = productRepository.save(product);
+
+
+
+    }
+
+    @Test
+    public void testCreateProduct3(){
+        Category category = testEntityManager.find(Category.class, 4);
+
+        Product product = new Product();
+        product.setName("Intel Core i9-9900KF");
+        product.setShortDescription("Intel Core");
+        product.setFullDescription("Intel Core slightly used but still in good condition");
+        product.setAlias("Intel Core Blaster 1");
+
+        product.setPrice(190);
+        product.setCreateTime(new Date());
+        product.setUpdateTime(new Date());
+
+        product.setCategory(category);
+
+        Product savedProduct = productRepository.save(product);
+
+
+    }
+
+    @Test
+    public void testCreateProduct4(){
+        Category category = testEntityManager.find(Category.class, 5);
+
+        Product product = new Product();
+        product.setName("Corsair Vengeance LPX 32GB");
+        product.setShortDescription("Corsair Vengeance");
+        product.setFullDescription("Corsair Vengeance LPX 32GB memory for work devices");
+        product.setAlias("corsair  LPX 32GB");
+
+        product.setPrice(150);
+        product.setCreateTime(new Date());
+        product.setUpdateTime(new Date());
+
+        product.setCategory(category);
+
+        Product savedProduct = productRepository.save(product);
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
     @Test
     public void testListProducts(){
 

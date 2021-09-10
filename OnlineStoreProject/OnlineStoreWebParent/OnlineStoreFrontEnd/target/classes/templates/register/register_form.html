@@ -16,6 +16,7 @@
 
     <form th:action="@{/create_customer}" method="post" th:object="${customer}" style="max-width: 600px; margin: 0 auto;"
     onsubmit="return checkUniquenessCustomer(this);">
+        <input type="hidden" th:field="*{id}"/>
 
     <div class="border border-secondary rounded p-3">
         <div class="form-group row">
@@ -42,17 +43,21 @@
         <div class="form-group row">
             <label class="col-sm-4 col-form-label">Password</label>
             <div class="col-sm-8">
-                <input  type="password" th:field="*{password}"class="form-control" maxlength="15" minlength="6"
-                        oninput="checkPasswordMatch(document.getElementById('confirmPassword'))"
-                        required
-                />
+                <input  type="password"  name="passwordinit" id="passwordinit"    class="form-control" maxlength="15" minlength="6" required />
+
+
             </div>
         </div>
 
         <div class="form-group row">
             <label class="col-sm-4 col-form-label">Re-type Password</label>
             <div class="col-sm-8">
-                <input  type="password"    id=confirmPassword       class="form-control" maxlength="15" minlength="6"  />
+
+                <input  type="password"  id=confirmPassword   th:field="*{password}"class="form-control" maxlength="15" minlength="6"
+                        oninput="checkPasswordMatch(document.getElementById('confirmPassword'))"
+                        required
+                />
+
             </div>
         </div>
 
@@ -123,7 +128,7 @@ $("#buttonFormCancel").on("click", function() {
     moduleURL = "[[@{/}]]"
 
     function checkPasswordMatch(confirmedPassword){
-    if(confirmPassword.value != $("#password").val()) {
+    if(confirmPassword.value != $("#passwordinit").val()) {
     confirmPassword.setCustomValidity("Passwords do not match!");
     }else {
     confirmPassword.setCustomValidity("");

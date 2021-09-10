@@ -37,12 +37,6 @@ $(document).ready(function() {
  });
 
 
-  $(document).ready(function() {
-         $("#logoutlink").on("click", function(e) {
-         e.preventDefault();
-         document.logoutForm.submit();
-             });
-         });
 
 
 
@@ -86,7 +80,68 @@ $(document).ready(function() {
 
 
 
-    var shiplenght = document.getElementById('shiplenght');
+
+$( "#shiplenght" ).keydown(function(e) {
+  if(!((e.keyCode > 95 && e.keyCode < 106)
+     || (e.keyCode > 47 && e.keyCode < 58)
+     || e.keyCode == 8)) {
+     return false;
+     }
+});
+
+$( "#shipwidth" ).keydown(function(e) {
+   if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58)
+      || e.keyCode == 8)) {
+      return false;
+      }
+});
+
+$( "#shipheightt" ).keydown(function(e) {
+   if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58)
+      || e.keyCode == 8)) {
+      return false;
+      }
+});
+
+$( "#shipweight" ).keydown(function(e) {
+   if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58)
+      || e.keyCode == 8)) {
+      return false;
+      }
+});
+
+$( "#formdiscount" ).keydown(function(e) {
+  if(!((e.keyCode > 95 && e.keyCode < 106)
+     || (e.keyCode > 47 && e.keyCode < 58)
+     || e.keyCode == 8)) {
+     return false;
+     }
+});
+
+$( "#formprice" ).keydown(function(e) {
+  if(!((e.keyCode > 95 && e.keyCode < 106)
+     || (e.keyCode > 47 && e.keyCode < 58)
+     || e.keyCode == 8)) {
+     return false;
+     }
+});
+
+$( "#formcost" ).keydown(function(e) {
+   if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58)
+      || e.keyCode == 8)) {
+      return false;
+      }
+});
+
+
+
+/*
+
+var shiplenght = document.getElementById('shiplenght');
 
     // Listen for input event on numInput.
     shiplenght.onkeydown = function(e) {
@@ -96,7 +151,6 @@ $(document).ready(function() {
     return false;
     }
     }
-
 
     var shipwidth = document.getElementById('shipwidth');
 
@@ -144,7 +198,7 @@ $(document).ready(function() {
         }
         }
 
-    .
+
         var formprice = document.getElementById('formprice');
 
         // Listen for input event on numInput.
@@ -168,7 +222,7 @@ $(document).ready(function() {
         return false;
         }
         }
-
+*/
 
 
          function showImageThumbNail(fileInput){

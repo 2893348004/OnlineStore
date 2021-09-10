@@ -14,6 +14,7 @@
     </div>
 
 
+
     <div th:if="${message != null}" class="alert alert-success text-center">
         [[${message}]]
     </div>
@@ -59,7 +60,7 @@
 <script type="text/javascript" th:src="@{/js/shopping_cart.js}"></script>
 <script type="text/javascript" >
     contextPath = "[[@{/}]]" ;
-    productId = "[[${product.id}}]]" ;
+
     var csrfHeaderName = "[[${_csrf.headerName}]]"
     var csrfValue = "[[${_csrf.token}]]"
 

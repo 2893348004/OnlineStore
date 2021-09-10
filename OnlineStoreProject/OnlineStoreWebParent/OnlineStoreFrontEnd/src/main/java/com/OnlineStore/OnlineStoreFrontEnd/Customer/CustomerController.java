@@ -56,7 +56,16 @@ public class CustomerController {
 
     }
 
+    @PostMapping("/update_customer")
+    public String updateUser(Customer customer,  RedirectAttributes redirectAttributes)  {
 
+        customer.setEnabled(true);
+        customer.setCreatedTime(java.time.LocalDateTime.now());
+        customerService.save(customer);
+        redirectAttributes.addFlashAttribute("passmessage", "Successful edit of your information");
+        return "redirect:/home";
+
+    }
 
 
 

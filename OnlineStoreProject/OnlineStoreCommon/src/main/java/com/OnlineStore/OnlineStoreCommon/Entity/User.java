@@ -9,6 +9,7 @@ import java.util.Set;
 @Table(name= "users")
 public class User {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -25,7 +26,7 @@ public class User {
     @Column(name = "last_name", length = 45, nullable = false)
     private String lastName;
 
-    @Column(length = 64)
+    @Column(name = "enabled")
     private Boolean enabled;
 
     private String photo;

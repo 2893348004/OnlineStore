@@ -26,6 +26,17 @@ public class CategoryRepositoryTests {
 
 
 
+    @Test
+    public void createNewCatjegory(){
+
+
+
+
+       // Category savedCategory = categoryRepository.save(category1);
+
+
+
+    }
 
     @Test
     public void createNewCategory(){

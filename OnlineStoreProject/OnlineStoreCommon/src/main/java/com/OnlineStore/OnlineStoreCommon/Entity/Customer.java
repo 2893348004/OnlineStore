@@ -40,11 +40,12 @@ public class Customer {
     @Column(name = "zipcode", length = 10, nullable = false)
     private String zipcode;
 
-    @Column(length = 64)
+    @Column(name = "enabled")
     private Boolean enabled;
 
     @Column(name = "created_time", length = 15, nullable = false)
     private LocalDateTime createdTime;
+
 
     public Customer(){
 
